@@ -1,0 +1,40 @@
+{
+    "name": "elfuvo/yii2-date-compare",
+    "description": "Compare dates with the time zone",
+    "type": "yii2-extension",
+    "keywords": [
+        "yii2",
+        "extension",
+        "date comparizon"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "elfuvo",
+            "email": "elfuvo@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "yiisoft/yii2": "~2.0.12"
+    },
+    "autoload": {
+        "psr-4": {
+            "elfuvo\\dateCompare\\": "src"
+        }
+    },
+    "require-dev": {
+        "codeception/codeception": "^4.0",
+        "codeception/module-asserts": "^1.2",
+        "codeception/module-cli": "^1.0"
+    },
+    "scripts": {
+        "test": "vendor/bin/codecept run"
+    }
+}
