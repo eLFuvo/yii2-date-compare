@@ -79,7 +79,7 @@ $form->field($model, 'dateFrom')->widget([
 ]);
 ```
 
-You can define default date formatting for DateValueWidget in container definitions:
+You can define default date formatting for `DateValueWidget` in container definitions:
 
 ```php
 [
