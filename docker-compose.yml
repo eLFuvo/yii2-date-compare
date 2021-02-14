@@ -1,7 +1,0 @@
-version: '3'
-services:
-    application:
-        image: library/composer:latest
-        container_name: yii2-date-compare
-        volumes:
-            - ./:/app
