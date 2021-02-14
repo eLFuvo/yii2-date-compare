@@ -1,7 +1,7 @@
-[![Latest Stable Version](https://img.shields.io/github/v/release/elfuvo/yii2-compare-date.svg)](https://packagist.org/packages/elfuvo/yii2-compare-date)
-[![Build](https://img.shields.io/github/workflow/status/elfuvo/yii2-compare-date/Build.svg)](https://github.com/elfuvo/yii2-compare-date)
-[![Total Downloads](https://img.shields.io/github/downloads/elfuvo/yii2-compare-date/total.svg)](https://packagist.org/packages/elfuvo/yii2-compare-date)
-[![License](https://img.shields.io/github/license/elfuvo/yii2-compare-date.svg)](https://github.com/elfuvo/yii2-compare-date/blob/master/LICENSE)
+[![Latest Stable Version](https://img.shields.io/github/v/release/elfuvo/yii2-date-compare.svg)](https://packagist.org/packages/elfuvo/yii2-date-compare)
+[![Build](https://img.shields.io/github/workflow/status/elfuvo/yii2-date-compare/Build.svg)](https://github.com/elfuvo/yii2-date-compare)
+[![Total Downloads](https://img.shields.io/github/downloads/elfuvo/yii2-date-compare/total.svg)](https://packagist.org/packages/elfuvo/yii2-date-compare)
+[![License](https://img.shields.io/github/license/elfuvo/yii2-date-compare.svg)](https://github.com/elfuvo/yii2-date-compare/blob/master/LICENSE)
 
 Requirements
 ------------
@@ -16,13 +16,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist elfuvo/yii2-compare-date "~0.1.0"
+php composer.phar require --prefer-dist elfuvo/yii2-date-compare "~0.1.0"
 ```
 
 or add
 
 ```
-"elfuvo/yii2-compare-date": "~0.1.0"
+"elfuvo/yii2-date-compare": "~0.1.0"
 ```
 
 to the "require" section of your `composer.json` file.
