@@ -10,7 +10,6 @@ class DateConvertHelperCest
     public function _before(FunctionalTester $I)
     {
         new \yii\console\Application(require(dirname(__DIR__) . '/_data/config.php'));
-        Yii::$app->setTimeZone('Europe/Moscow');
     }
 
     // tests

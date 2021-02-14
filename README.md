@@ -30,12 +30,18 @@ to the "require" section of your `composer.json` file.
 Configure
 ---------
 
-In application configuration file set `defaultTimeZone` (DB time zone) and `timeZone` (application time zone)
+In application configuration file set `defaultTimeZone` (DB time zone) and `timeZone` (application time zone) for
+formatter
 
 ```php
     [
-        'timeZone' => 'Europe/Moscow', // application time zone
-        'defaultTimeZone' => 'UTC',// data base time zone
+        'components' => [
+            'formatter' => [
+                'class' => \yii\i18n\Formatter::class,
+                'defaultTimeZone' => 'UTC', // database timezone
+                'timeZone' => 'Europe/Moscow', // application time zone
+            ],
+        ],
     ];
 ```
 

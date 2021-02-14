@@ -9,7 +9,6 @@
 return [
     'id' => 'tests',
     'timeZone' => 'Europe/Moscow', // application time zone
-    'defaultTimeZone' => 'UTC',// data base time zone
     'language' => 'ru',
     'basePath' => dirname(dirname(__DIR__)),
     'aliases' => [
@@ -23,5 +22,11 @@ return [
         'definitions' => [],
     ],
     'modules' => [],
-    'components' => [],
+    'components' => [
+        'formatter' => [
+            'class' => \yii\i18n\Formatter::class,
+            'defaultTimeZone' => 'UTC',
+            'timeZone' => 'Europe/Moscow',
+        ],
+    ],
 ];
