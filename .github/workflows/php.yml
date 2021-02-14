@@ -12,7 +12,7 @@ jobs:
       - name: Build the docker-compose stack
         run: docker-compose -f docker-compose.yml -p yii2-compare-date build
       - name: Install composer packages
-        run: docker run --rm --volume $PWD:/app yii2-compare-date_application composer install
+        run: docker run --rm --volume $PWD:/app composer composer install
       - name: Run docker containers
         run: docker-compose -f docker-compose.yml up -d
       - name: Check running containers
