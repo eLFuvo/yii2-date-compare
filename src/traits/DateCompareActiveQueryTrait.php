@@ -26,7 +26,7 @@ trait DateCompareActiveQueryTrait
      * @param string $field - table field {{%foo}}.[[bar]]
      * @param string|null $date - date for comparing - 2021-02-14 (GMT +3)
      * @param string $format - date format for comparing in DB
-     * @return ActiveQuery
+     * @return ActiveQuery|DateCompareActiveQueryTrait
      */
     public function andCompareDate(
         string $operator,
@@ -50,7 +50,7 @@ trait DateCompareActiveQueryTrait
      * @param string $field - table field {{%foo}}.[[bar]]
      * @param string|null $date - date for comparing - 2021-02-14 (GMT +3)
      * @param string $format - date format for comparing in DB
-     * @return ActiveQuery
+     * @return ActiveQuery|DateCompareActiveQueryTrait
      */
     public function orCompareDate(
         string $operator,
@@ -75,7 +75,7 @@ trait DateCompareActiveQueryTrait
      * @param string $operator - compare operator: <, <=, =, =>, >
      * @param string $field - table field {{%foo}}.[[bar]]
      * @param string|null $date - date for comparing - 2021-02-14 (GMT +3)
-     * @return ActiveQuery
+     * @return ActiveQuery|DateCompareActiveQueryTrait
      */
     public function andCompareTime(
         string $operator,
@@ -91,7 +91,7 @@ trait DateCompareActiveQueryTrait
      * @param string $operator - compare operator: <, <=, =, =>, >
      * @param string $field - table field {{%foo}}.[[bar]]
      * @param string|null $date - date for comparing - 2021-02-14 (GMT +3)
-     * @return ActiveQuery
+     * @return ActiveQuery|DateCompareActiveQueryTrait
      */
     public function orCompareTime(
         string $operator,
